@@ -16,6 +16,12 @@ import { AnimationsComponent } from './animations/animations.component';
 import { OthersComponent } from './others/others.component';
 import { TablesComponent } from './tables/tables.component';
 import { ChartsComponent } from './charts/charts.component';
+import { NotfoundComponent } from './notfound/notfound.component';
+import { BlankComponent } from './blank/blank.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
+import { LogoutComponent } from './logout/logout.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +37,13 @@ import { ChartsComponent } from './charts/charts.component';
     AnimationsComponent,
     OthersComponent,
     TablesComponent,
-    ChartsComponent
+    ChartsComponent,
+    NotfoundComponent,
+    BlankComponent,
+    LoginComponent,
+    RegisterComponent,
+    ForgotpasswordComponent,
+    LogoutComponent
   ],
   imports: [
     BrowserModule,

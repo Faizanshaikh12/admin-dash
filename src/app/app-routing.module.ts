@@ -11,6 +11,12 @@ import {AnimationsComponent} from './animations/animations.component';
 import {OthersComponent} from './others/others.component';
 import {TablesComponent} from './tables/tables.component';
 import {ChartsComponent} from './charts/charts.component';
+import {NotfoundComponent} from './notfound/notfound.component';
+import {BlankComponent} from './blank/blank.component';
+import {LoginComponent} from './login/login.component';
+import {RegisterComponent} from './register/register.component';
+import {ForgotpasswordComponent} from './forgotpassword/forgotpassword.component';
+import {LogoutComponent} from './logout/logout.component';
 
 const routes: Routes = [
 
@@ -22,7 +28,13 @@ const routes: Routes = [
   { path: 'animations', component: AnimationsComponent },
   { path: 'others', component: OthersComponent },
   { path: 'charts', component: ChartsComponent },
-  { path: 'tables', component: TablesComponent }
+  { path: 'tables', component: TablesComponent },
+  { path: 'notfound', component: NotfoundComponent },
+  { path: 'blank', component: BlankComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'register', component: RegisterComponent },
+  { path: 'forgotpassword', component: ForgotpasswordComponent },
+  { path: 'logout', component: LogoutComponent }
 ];
 
 
