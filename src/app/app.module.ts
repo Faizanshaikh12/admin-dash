@@ -48,7 +48,7 @@ import { LogoutComponent } from './logout/logout.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule
+    RouterModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
