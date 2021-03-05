@@ -22,6 +22,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
 import { LogoutComponent } from './logout/logout.component';
+import {ChartsModule} from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -49,6 +50,7 @@ import { LogoutComponent } from './logout/logout.component';
     BrowserModule,
     AppRoutingModule,
     RouterModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

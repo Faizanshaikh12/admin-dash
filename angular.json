@@ -29,7 +29,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/sb-admin-2.js"
+            ]
           },
           "configurations": {
             "production": {
